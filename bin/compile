@@ -9,7 +9,7 @@ ENV_DIR=$3
 mkdir -p $CACHE_DIR
 
 LIB="GeoIP2-City"
-EDITION="${LIB}_20180320"
+EDITION="${LIB}_20190604"
 TAR="${CACHE_DIR}/${EDITION}.tar.gz"
 DB="${CACHE_DIR}/${LIB}.mmdb"
 OUTPUT="${BUILD_DIR}/vendor/assets"
